@@ -1,0 +1,53 @@
+#create a cutting window for use
+# v 1.0
+# made by Han Syuan,Yang
+# email:yang.hansyuan@gmail.com
+
+proc func() {
+		timeSliderCutKey;
+	}
+
+proc func2() {
+		timeSliderPasteKey false;
+	}
+
+
+proc func3() {
+		playblast  -format qt -sequenceTime 0 -clearCache 1 -viewer 1 -showOrnaments 1 -fp 4 -percent 50 -compression "PNG" -quality 50;
+
+	}
+
+
+proc func4() {
+		timeSliderCopyKey;
+
+	}
+
+
+
+
+proc func5() {
+	timeSliderClearKey;
+
+
+	}
+
+
+	// create a window
+	window -title "cutting window";
+
+		// define the layout of controls added 
+		// to the window.
+		rowLayout  -numberOfColumns 5 -columnWidth5 100 100 100 100 100;	 
+		     
+
+
+			// create a button
+			button -label "cut key" -command "func";
+			button -label "paste key" -command "func2";	
+			button -label "copy key" -command "func4";	
+			button -label "delete key" -command "func5";		
+			button -label "playblast" -command "func3";	
+			
+	// show the window we last created
+	showWindow;
