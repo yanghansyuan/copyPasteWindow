@@ -34,7 +34,7 @@ proc func5() {
 
 
 	// create a window
-	window -title "good shit";
+	window -title “cut paste window“;
 
 		// define the layout of controls added 
 		// to the window.
