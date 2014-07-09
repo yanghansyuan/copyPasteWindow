@@ -1,7 +1,7 @@
-#create a cutting window for use
-# v 1.0
-# made by Han Syuan,Yang
-# email:yang.hansyuan@gmail.com
+//create a cutting window for use
+//v 1.0
+//made by Han Syuan,Yang
+//email:yang.hansyuan@gmail.com
 
 proc func() {
 		timeSliderCutKey;
@@ -34,7 +34,7 @@ proc func5() {
 
 
 	// create a window
-	window -title "cutting window";
+	window -title "good shit";
 
 		// define the layout of controls added 
 		// to the window.
